@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
   fill('black');
-  textSize(15rr);
+  textSize(15);
   textAlign(CENTER, CENTER);
   text("Press R, O, Y, G, B, P, T, W, L to change colors and draw with all the colors of the rainbow (and the trans flag.)", width/2, 20);
 
@@ -35,3 +35,4 @@ function keyPressed() {
     circleColor = color(...keyColors[k]);
   }
 }
+
