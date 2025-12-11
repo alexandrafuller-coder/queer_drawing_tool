@@ -15,7 +15,7 @@ let circleColor;
 function setup() {
   createCanvas(800, 800);
   background(255);
-  circleColor = color(0); // start black
+  circleColor = color(0);
 }
 
 function draw() {
@@ -35,4 +35,5 @@ function keyPressed() {
     circleColor = color(...keyColors[k]);
   }
 }
+
 
